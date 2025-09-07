@@ -47,8 +47,6 @@ const Login: React.FC = () => {
 
         setMsg(res.msg || "Login successful");
         reset();
-        await delay(2);
-        router.push('/profile');
     };
 
     return (
