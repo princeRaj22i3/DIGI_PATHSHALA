@@ -20,12 +20,14 @@ const loginRoute = require('./routes/login');
 const authmiddleware = require('./middlewares/auth');
 const profileRoute = require('./routes/profile')
 const qnaRoute = require('./routes/qna')
+const contactRoute = require('./routes/contact')
 
 
 app.use('/signin',signinRoute);
 app.use('/login',loginRoute);
 app.use('/profile',authmiddleware, profileRoute)
 app.use('/qna', authmiddleware,qnaRoute)
+app.use('/api/contact', contactRoute);
 
 connectDb().then(()=>{
     app.listen(port,()=>{

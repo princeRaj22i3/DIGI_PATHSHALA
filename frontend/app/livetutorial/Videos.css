@@ -27,6 +27,7 @@
 }
 .LiveTutiorCard {
   flex: 0 0 auto;
+  flex-direction: column;
   width: 18rem;
   max-width: 90vw;
   box-sizing: border-box;

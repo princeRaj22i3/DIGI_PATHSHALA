@@ -3,9 +3,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import LogoPic from '@/public/website-logo.png';
-import Moonpic from '@/public/moon.png';
-import Sunpic from '@/public/sun.png';
+import LogoPic from '@/public/logo-hackodisha.png';
 import "./navbar.css";
 import { useRouter } from 'next/navigation';
 
