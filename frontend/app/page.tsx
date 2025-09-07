@@ -114,7 +114,7 @@ const Home: React.FC = () => {
             img: learningSource,
             title: "Learning Sources",
             text: "Click here to attend best lectures",
-            href: "/videos",
+            href: "/livetutorial",
           },
           {
             img: Scholarship,
